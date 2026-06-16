@@ -5,7 +5,12 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-300 mt-16">
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h2 className="text-white text-xl font-bold mb-3">ShopEase</h2>
+          <h2 className="flex items-center gap-3 text-white text-xl font-bold mb-3">
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-2xl bg-blue-600 text-white shadow">
+              <i className="fa-solid fa-star"></i>
+            </span>
+            ShopEase
+          </h2>
           <p className="text-sm">Your one-stop destination for quality products at great prices.</p>
         </div>
         <div>
